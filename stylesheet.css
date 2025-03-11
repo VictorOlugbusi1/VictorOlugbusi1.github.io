@@ -1,0 +1,87 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:darkgreen;
+    color: beige;
+}
+
+a {
+    color: #8d93ab;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e94560; /*highlighting color on hover*/
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: purple;
+    color: #fff;
+}
+
+nav {
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6a0572; 
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #16213e; 
+  }
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e94560; 
+  }
+/* Character Profiles */
+.character-card {
+    display: inline-block; /* multiple cards */
+    width: 300px;
+    background-color: #f2f2f2;
+    color: #000;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .character-card h3 {
+    color: #6a0572; 
+  }
+  
+  .character-card ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .character-card ul li {
+    margin: 5px 0;
+  }
+
+  h1 {
+    color: darkblue;
+    text-align: center;
+  }
+
